@@ -16,4 +16,9 @@ class AdminController extends Controller
     {
         return view('backend.admin-dashboard');
     }
+
+    public function adminAbout()
+    {
+        return view('backend.about.about');
+    }
 }

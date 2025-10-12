@@ -25,3 +25,4 @@ Auth::routes();
 
 
 Route::get('/admin/dashboard', [AdminController::class, 'adminDashboard']);
+Route::get('/admin/about', [AdminController::class, 'adminAbout']);
