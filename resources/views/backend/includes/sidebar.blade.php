@@ -15,7 +15,7 @@
 
     <!-- Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="dashboard.html">
+        <a class="nav-link" href="{{url('/admin/dashboard')}}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -23,25 +23,19 @@
     <hr class="sidebar-divider">
 
     <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">
+        <a class="nav-link" href="{{url('/admin/portfolio')}}">
             <i class="fas fa-briefcase"></i>
             <span>Portfolio</span></a>
     </li>
 
     <!-- About Dropdown -->
 <li class="nav-item">
-    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#aboutDropdown"
-        aria-expanded="false" aria-controls="aboutDropdown">
+    <a class="nav-link collapsed" href="{{url('/admin/about')}}">
+         
         <i class="fas fa-user"></i>
         <span>About</span>
     </a>
-    <div id="aboutDropdown" class="collapse" aria-labelledby="headingAbout" data-parent="#accordionSidebar">
-        <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="#">About Me</a>
-            <a class="collapse-item" href="#">Skill</a>
-           
-        </div>
-    </div>
+    
 </li>
 
 

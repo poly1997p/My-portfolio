@@ -44,40 +44,7 @@
         </div>
         <!-- End Intro + Photo -->
 
-        <!-- Skills Grid -->
-        <div class="mb-5">
-          <div class="row g-4">
-            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
-              <div class="skill-item">
-                <i class="bi bi-layout-text-window"></i>
-                <h3>UI/UX</h3>
-                <p>Vivamus sagittis lacus molestie placerat.</p>
-              </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
-              <div class="skill-item">
-                <i class="bi bi-code-slash"></i>
-                <h3>React.js</h3>
-                <p>Maecenas pharetra magna sit amet risus.</p>
-              </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="240">
-              <div class="skill-item">
-                <i class="bi bi-phone"></i>
-                <h3>Mobile-first</h3>
-                <p>Donec id elit non mi porta gravida.</p>
-              </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-              <div class="skill-item">
-                <i class="bi bi-camera"></i>
-                <h3>Photography</h3>
-                <p>Aliquam euismod nunc at augue cursus.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Skills Grid -->
+       
         
       </div>
 
